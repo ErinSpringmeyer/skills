@@ -1,0 +1,2 @@
+Every released skill, one folder each: SKILL.md, references/, scripts/, agents/, assets/.
+Copies arrive by pull request from skills-workshop, never edited straight into main.
