@@ -8,7 +8,7 @@ Skills, agents and plugins for Claude, published as a marketplace and as individ
 
 ```
 /plugin marketplace add ErinSpringmeyer/skills
-/plugin install <plugin-name>@erin-springmeyer
+/plugin install <plugin-name>@erin-springmeyer-skills
 ```
 
 **claude.ai** — download a skill zip from the latest [release](https://github.com/ErinSpringmeyer/skills/releases) and upload it in Claude's skills settings.  You can also copy a folder from `skills/` directly.
@@ -27,7 +27,7 @@ Two kinds of plugin: a **collection** groups a domain's skills, such as `product
 
 ## Conventions
 
-Names are lowercase kebab-case.  Frontmatter uses only Agent Skills spec fields, so the same skill works in Claude Code, Cowork, claude.ai and other agents that read `SKILL.md`.  Versions are semantic, at both the item and the plugin level, and each plugin keeps its own CHANGELOG.
+Names are lowercase kebab-case.  Frontmatter uses only Agent Skills spec fields, so the same skill works in Claude Code, Cowork, claude.ai and other agents that read `SKILL.md`.  Each skill's `metadata` records its author, version, dates, type, category, tags and status, and, where they apply, its prerequisites, dependencies and documentation.  Versions are semantic, at both the item and the plugin level, and each plugin keeps its own CHANGELOG.
 
 ## License
 
